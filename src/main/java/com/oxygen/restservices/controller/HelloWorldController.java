@@ -12,7 +12,7 @@ import com.oxygen.restservices.model.UserDetails;
 public class HelloWorldController {
 
 	//@RequestMapping(method=RequestMethod.GET,path="/helloworld")
-	@GetMapping("/helloworld test")
+	@GetMapping("/helloworld1 test")
 	public String helloWorld() {
 		return "Hello World1";
 	}
